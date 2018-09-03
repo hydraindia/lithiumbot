@@ -571,4 +571,4 @@ message.channel.fetchMessages({
   message.channel.send("My Website")
   }
      });
-bot.login(botconfig.token);
+bot.login(process.env.BOT_TOKEN);
